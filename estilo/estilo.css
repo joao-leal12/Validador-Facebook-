@@ -22,8 +22,7 @@ a{
 .containerDois{
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
     width: 396px;   
-    padding-bottom: 24px; 
-    padding-top: 10px; 
+    padding: 20px 0 28px;
     border-radius: 8px;
 
 
@@ -46,7 +45,7 @@ p{
 }
 .agrupamento-btn a {
 
-    margin-top: 12px;
+    padding-top: 6px; 
     
 }
 
@@ -64,17 +63,24 @@ p{
 }
 
 .btn-cadastro{
-    border-top: 1px solid rgba(0,0,0,0.3); 
+    
     padding: 20px 10px; 
-   
+    
+
 
 }
-
 .btn-cadastro > button {
-
+    font-weight: bolder;
     font-size: 17px; 
-
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: white;
+    background-color: #36a420;
 }
+
 
 .disabled{
 
@@ -132,9 +138,27 @@ p{
     position: absolute; 
     right: 0; 
     top: 2px; 
+    border: none; 
+    background-color: transparent; 
 
 }
 
+header .x{
+
+    font-size: 22px;
+    color: black; 
+    display: inline-block; 
+    
+}
+
+
+.x .mudar{
+
+    width: 30px; 
+    height: 30px;
+
+
+}
 
 /* 
 .header .x{
@@ -178,3 +202,28 @@ small{
 
 
 }
+
+.inputTwo, .inputUm{
+
+    width: 364px; 
+   display: flex!important; 
+   justify-content: center!important;
+   align-items: center!important;
+   margin: 0 auto!important; 
+    
+}
+
+.inputTwo{
+    
+    padding-top: 6px;
+}
+#InputFirst, #inputSecond {
+
+    
+    padding: 14px 16px; 
+    width: 364px;
+
+
+}
+
+
